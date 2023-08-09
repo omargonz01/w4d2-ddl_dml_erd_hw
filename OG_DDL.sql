@@ -30,5 +30,6 @@ add foreign key (customer_id) references customer(customer_id);
 alter table concessions
 add foreign key (ticket_id) references tickets(ticket_id);
 
+
 SELECT *
 from customer;
